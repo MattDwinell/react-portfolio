@@ -1,9 +1,10 @@
-import './App.css';
-
+import Welcome from './components/Welcome'
+import ProjectPage from './components/ProjectPage'
 function App() {
   return (
     <div className="container">
-        <div>hello</div>
+        <Welcome/>
+        <ProjectPage />
     </div>
   );
 }
