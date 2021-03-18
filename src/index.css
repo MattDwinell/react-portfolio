@@ -30,3 +30,76 @@ body {
 .project-page h2, .project-page h3{
 margin-left: 20%;
 }
+.accent{
+  color:#E3776C; 
+}
+.projects{
+  box-sizing: border-box;
+  display: inline-flex;
+  margin: 0 0 0 20%;
+}
+.project{
+  height: 300px;
+  min-width: 300px;
+  background-size: cover;
+  margin: 10px; 
+  text-align: center;
+  border: 1px solid #E3776C;
+  border-radius: 5px;
+  --c: white;
+  --v: hidden;
+
+}
+.project:hover{
+  background-color: #162039;
+  background-image: none;
+  cursor: pointer;
+  --c: #202E53 ;
+  --v: visible;
+  
+
+}
+
+.project a{
+  display: inherit;
+  transition: height 2s;
+  font-size: 1.5em;
+  padding: 20px 0 20px 0;
+  transition: background-color 2s;
+  margin-top: 40%;
+  background-color: var(--c);
+  visibility: var(--v);
+  color: white;
+  text-decoration: none;
+}
+.project p{
+  display: inherit;
+  padding: 20px 0 20px 0;
+  transition: background-color 2s;
+  margin-top: 15%;
+  background-color: var(--c);
+  visibility: var(--v);
+  color: white;
+}
+@media only screen and (max-width: 600px){
+
+.projects{
+  display: inline-block;
+  margin: 0 auto;
+}
+.project{
+  width: 30px;
+  height: 30vh;
+  background-size: 300px;
+
+}
+.project a{
+  margin-top: 5px;
+}
+.welcome h1, .welcome h2, .projects{
+  margin: 0 0 0 10%;
+}
+.project-page h2, .project-page h3{
+  margin-left: 10%;
+  }
+}
