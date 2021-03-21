@@ -8,7 +8,7 @@ import plantr from './../images/plantr_profile_page.PNG'
 const Projects = () => {
     const projectList = [
     {tech:'tech: React, Reactrouter, Fetch', img: hangman, title: 'React Hangman', url: 'https://mattdwinell.github.io/react-hang-man', repo: 'https://github.com/MattDwinell/react-hang-man'},
-    { tech:'Always a work in progress',img: casualPhoto, title: 'Myself', url: 'https://www.google.com', repo: null},
+    { tech:'Always a work in progress',img: casualPhoto, title: 'Myself', url: '#about', repo: null},
     {tech:'Sql, Firebase, Node, Express, Materalize', img: dndcharMaker, title: 'DnD Character Creator', url: 'https://dndcharcreator.herokuapp.com/assets/html/index.html', repo: 'https://github.com/MattDwinell/dndcharSQLVersion'},
     {tech:'Firebase, API Calls, Materalize', img: dndArena, title: 'DnD Arena Game', url: 'https://mattdwinell.github.io/DnDTAFight/', repo: 'https://github.com/MattDwinell/DnDTAFight'}
     ,

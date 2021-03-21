@@ -108,6 +108,20 @@ margin-left: 20%;
 .oction:hover{
   cursor: pointer;
 }
+.foot-link{
+color: white;
+  text-decoration: none;
+  margin: 5px 20px 5px 20px;
+}
+.footer-icon{
+  height: 25px;
+  width: 25px;
+  fill: white;
+}
+.foot-link:hover, .footer-icon:hover{
+  text-decoration: underline;
+  color: #E3776C;
+}
 
 .project a{
   display: inherit;
@@ -142,6 +156,9 @@ margin-left: 20%;
   background-color: #202E53;
   width: 60%;
 }
+.about-content h2{
+  text-align: center;
+}
 .blurb{
   width: 50%;
   display: inline-block
@@ -175,6 +192,7 @@ footer{
   height: 10vh;
   padding-top: 20px;
   text-align: center;
+  padding-bottom: 20px;
 }
 @media (min-width:1600px) and (orientation:landscape){
   .projects{

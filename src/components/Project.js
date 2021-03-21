@@ -14,7 +14,7 @@ const Project = ({title, img, url, tech, repo}) => {
         return (
             <div className = 'full-card'>
             <div style={{backgroundImage: `url(${img})`}} className = 'project'>
-               <a className = 'title-link' target="_blank" rel="noreferrer" href={url}>{title}</a> 
+               <a className = 'title-link'  href={url}>{title}</a> 
                <p>{tech} </p>       
             </div>
             </div>
@@ -25,7 +25,7 @@ const Project = ({title, img, url, tech, repo}) => {
 Project.defaultProps = {
     title: 'title',
     img: './../images/casual_photo.jpeg',
-    url: 'https://www.google.com',
+    url: '#about',
     tech: 'html, css, javascript',
     repo: null
 }
